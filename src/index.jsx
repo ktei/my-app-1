@@ -6,6 +6,7 @@ import { Shell } from './App';
 
 import { Container } from './framework/ui';
 import { CourseListView } from './Course';
+import { LecturerListView } from './Lecturer';
 
 import './styles/app.css';
 
@@ -16,7 +17,7 @@ const App = () => {
   return (
     <Shell>
       <Container>
-        <CourseListView />
+        <LecturerListView />
       </Container>
     </Shell>
   );
