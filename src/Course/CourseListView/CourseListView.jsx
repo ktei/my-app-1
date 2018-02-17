@@ -20,7 +20,7 @@ export default class CourseListView extends React.Component {
 
   fetchCourses() {
     this.setState({ isLoading: true });
-    axios.get('/api/course').then((response) => {
+    axios.get('/api/courses').then((response) => {
       this.setState({ courses: response.data, isLoading: false });
     });
   }
